@@ -113,6 +113,8 @@ body {
 ul, 
 ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
  
 a {
@@ -124,6 +126,7 @@ h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 1.875em;
     font-weight: 500;
+    margin: 0;
 }
  
 h3, 
@@ -242,6 +245,10 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
 }
 
 footer .social-icons {
@@ -252,6 +259,10 @@ footer .social-icons {
 
 footer .copyright {
   margin: 20px 0;
+}
+
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
 
 /**-------Mobile Styles Homepage-----*/
@@ -335,6 +346,11 @@ input[type=button] {
   text-align: center;
 }
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 /***---Reviews---***/
 
 .reviews {
@@ -366,18 +382,6 @@ About Page
    background-color: #527158;
 }
 
-.contact-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    background-color: #2a423a;
-}
-
-.contact-content p {
-  margin: 0;
-}
-
 .map figure {
   width: 100%;
   height: 0;
@@ -393,6 +397,20 @@ About Page
   top: 0;
   left: 0;
 }
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    background-color: #2a423a;
+}
+
+.contact-content p {
+  margin: 0;
+}
+
+
 
 /*-----------
 FAQ Page
@@ -604,8 +622,7 @@ aside .content-wrapper .form {
 }
 
 .features i {
-	font-size: 3.0em;
-        margin-bottom: 40px;
+	  margin-bottom: 30px;
 }
 
 /* Reviews */
@@ -658,6 +675,8 @@ footer p {
     line-height: 1.285;
 }
 
+
+
 /*-----------
 About Page
 -------------*/
@@ -672,6 +691,10 @@ About Page
   width: 40%;
 }
 
+.map figure {
+  padding-bottom: 45%;
+}
+
 .contact-section .content-wrapper h2 {
   width: 80%;
 }
@@ -682,20 +705,8 @@ About Page
   align-items: flex-start;
 }
 
-.contact-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  background-color: #2a423a;
-}
-
 .contact-content h4 {
   font-size: 1.5em;
-}
-
-.map figure {
-  padding-bottom: 45%;
 }
 
 /*-----------
