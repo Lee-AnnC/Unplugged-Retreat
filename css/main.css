@@ -399,11 +399,11 @@ About Page
 }
 
 .contact-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    background-color: #2a423a;
+  background-color: #2a423a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .contact-content p {
