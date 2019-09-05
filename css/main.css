@@ -175,21 +175,20 @@ header {
     padding: 15px 0;
 }
 
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 0;
+}
+
 header figure {
    width: 40%;
    display: flex;
    justify-content: center;
    align-items: center;
    flex-flow: row wrap;
-}
-
-
-header .content-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    margin: 0;
 }
  
 .header-divider {
@@ -240,6 +239,11 @@ footer .content-wrapper {
   margin: 50px 0;
 }
 
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ }
 
 footer .social-icons p {
   display: flex;
@@ -251,18 +255,12 @@ footer .social-icons p {
   height: 40px;
 }
 
-footer .social-icons {
- display: flex;
- justify-content: space-around;
- align-items: center;
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
 
 footer .copyright {
   margin: 20px 0;
-}
-
-footer .social-icons p i {
-  font-size: 1.3125em;
 }
 
 /**-------Mobile Styles Homepage-----*/
@@ -409,8 +407,6 @@ About Page
 .contact-content p {
   margin: 0;
 }
-
-
 
 /*-----------
 FAQ Page
@@ -662,10 +658,6 @@ footer .contact {
     margin-bottom: 0;
 }
 
-footer .copyright {
-    width: 100%;
-}
-
 footer h4 {
   font-size: 1.5em;
   margin-bottom: 40px;
@@ -675,7 +667,14 @@ footer p {
     line-height: 1.285;
 }
 
+footer .social-icons {
+  width: 12.5em;
+  justify-content: space-between;
+}
 
+footer .copyright {
+  width: 100%;
+}
 
 /*-----------
 About Page
